@@ -13,6 +13,6 @@ namespace BlazorApp1.Data
 
         public DbSet<Post> posts { get; set; }
 
-        public DbSet<UserSetting> userSettings { get; set; }
+        public DbSet<UserProfile> userProfiles { get; set; }
     }
 }

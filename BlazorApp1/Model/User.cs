@@ -15,7 +15,7 @@ namespace BlazorApp1.Model
         public string? Email { get; set; }
 
         //egy-egy kapcsolat kiépítése a Usersetting osztállyal 
-        public virtual UserSetting? UserSetting { get; set; }
+        public virtual UserProfile? UserProfile { get; set; }
 
 
         //egy a többhöz kapcsolat kialakítása a post osztály felé:
